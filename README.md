@@ -1,5 +1,7 @@
 # Healthcare Claims Analysis (Practice Data)
 
+> **Key finding:** Denials are 16.6% of claims but 20.7% of billed dollars — and one fixable reason, “missing information,” causes 47.1% of all denials. Full write-up: [ANALYSIS.md](ANALYSIS.md).
+
 SQL analysis of medical claims: how many claims are denied and why, which
 payers deny most, how long unpaid claims have been sitting, and how paid
 amounts compare with billed amounts.
@@ -59,3 +61,5 @@ in `pending` status.
 
 - `README.md` — this file
 - `queries.sql` — the five claims queries, commented section by section
+- `ANALYSIS.md` — business analysis run on the sample data: findings with figures and recommendations
+- `data/claims.csv` — generated sample claims table (205 rows, service dates Jan–Oct 2026)
